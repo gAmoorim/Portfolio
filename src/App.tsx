@@ -31,7 +31,7 @@ function App() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-white text-center">
                   <img 
-                    src="/logoWxp.png" 
+                    src="/logoWxp-removebg.png" 
                     alt="Windows XP Logo" 
                     className="w-48 h-48 object-contain mx-auto mb-8"
                   />
@@ -81,7 +81,7 @@ function App() {
                   <Github size={20} />
                   <span>Github</span>
                 </a>
-                <a href="#" target='_blank' rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/gabriel-amorim-609211304/" target='_blank' rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-[#ECE9D8] border border-gray-300 rounded hover:bg-[#CFE4FF] transition-colors">
                   <Linkedin size={20} />
                   <span>LinkedIn</span>
@@ -106,38 +106,57 @@ function App() {
                     <Terminal className="text-[#0A246A]" size={24} />
                     <h3 className="text-xl font-semibold">Backend</h3>
                   </div>
-                  <p className="text-gray-700">Node.js, Python, Java, APIs RESTful</p>
+                  <p className="text-gray-700">JavaSrcipt, Node.js, Python, APIs RESTful</p>
                 </div>
-              </div>
 
+              </div>
               <div className="bg-[#ECE9D8] p-6 rounded border border-gray-300 mb-12">
                 <h2 className="text-2xl font-bold mb-6 text-[#0A246A]">Projetos</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
-                      src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80" 
+                      src="/codestudio.png" 
                       alt="Projeto 1" 
-                      className="w-full h-48 object-cover rounded mb-4"
+                      className="w-full max-h-64 object-contain rounded mb-4"
                     />
-                    <h3 className="text-lg font-semibold mb-2">E-commerce</h3>
-                    <p className="text-gray-600 mb-4">Plataforma completa de e-commerce</p>
+                  
+                    <h3 className="text-lg font-semibold mb-2">Code Studio</h3>
+                    <p className="text-gray-600 mb-4">Plataforma completa de Marketing Digital</p>
                     <div className="flex gap-4">
-                      <a href="#" className="text-[#0A246A] hover:underline">Demo</a>
-                      <a href="#" className="text-[#0A246A] hover:underline">Código</a>
+                      <a href="https://codestudio-one.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://github.com/gAmoorim/CodeStudio" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
+                  
                   </div>
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
-                      src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80" 
+                      src="/techstore.png"
                       alt="Projeto 2" 
-                      className="w-full h-48 object-cover rounded mb-4"
+                      className="w-full max-h-64 object-contain rounded mb-4"
                     />
-                    <h3 className="text-lg font-semibold mb-2">Dashboard</h3>
-                    <p className="text-gray-600 mb-4">Dashboard com dados em tempo real</p>
+                    <h3 className="text-lg font-semibold mb-2">Tech Store</h3>
+                    <p className="text-gray-600 mb-4">Plataforma completa de e-commerce de Tecnologia</p>
                     <div className="flex gap-4">
-                      <a href="#" className="text-[#0A246A] hover:underline">Demo</a>
-                      <a href="#" className="text-[#0A246A] hover:underline">Código</a>
+                      <a href="https://tech-store-lime.vercel.app/" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://github.com/gAmoorim/TechStore" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
+
+                    {/*
+                    </div>
+                  <div className="bg-white p-4 rounded border border-gray-300">
+                    <img 
+                      src=""
+                      alt="Projeto 3" 
+                      className="w-full max-h-64 object-contain rounded mb-4"
+                    />
+                    <h3 className="text-lg font-semibold mb-2">...</h3>
+                    <p className="text-gray-600 mb-4">...2</p>
+                    <div className="flex gap-4">
+                      <a href="#" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="#" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
+                    </div>
+                    */}
+                    
                   </div>
                 </div>
               </div>
