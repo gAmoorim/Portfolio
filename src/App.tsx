@@ -72,8 +72,9 @@ function App() {
           {/* Content */}
           <div className="p-6">
             <div className="bg-white p-8 rounded border border-gray-300 shadow-inner">
-              <h1 className="text-4xl font-bold mb-6 text-[#0A246A]">Gabriel Amorim</h1>
-              <p className="text-xl text-gray-700 mb-8">Desenvolvedor Full Stack</p>
+              <h1 className="text-4xl font-bold mb-1 text-[#0A246A]">Gabriel Amorim</h1>
+              <p className="text-xl text-gray-700 mb-5"> Desenvolvedor Back-end | Node.js, APIs REST</p>
+              <p className="text-xl text-gray-700 mb-8"> Stack Principal: • GitHub • PostgreSQL • Deploy (Vercel)</p>
 
               <div className="flex gap-4 mb-12">
                 <a href="https://github.com/gAmoorim" target='_blank' rel="noopener noreferrer"
@@ -86,11 +87,6 @@ function App() {
                   <Linkedin size={20} />
                   <span>LinkedIn</span>
                 </a>
-                <a href="#" target='_blank' rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 bg-[#ECE9D8] border border-gray-300 rounded hover:bg-[#CFE4FF] transition-colors">
-                  <Mail size={20} />
-                  <span>Email</span>
-                </a>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -99,14 +95,14 @@ function App() {
                     <Code2 className="text-[#0A246A]" size={24} />
                     <h3 className="text-xl font-semibold">Frontend</h3>
                   </div>
-                  <p className="text-gray-700">React, TypeScript, Tailwind CSS, Next.js</p>
+                  <p className="text-gray-700">React, Tailwind CSS, Next.js, HTML, CSS</p>
                 </div>
                 <div className="bg-[#ECE9D8] p-6 rounded border border-gray-300">
                   <div className="flex items-center gap-4 mb-4">
                     <Terminal className="text-[#0A246A]" size={24} />
                     <h3 className="text-xl font-semibold">Backend</h3>
                   </div>
-                  <p className="text-gray-700">JavaSrcipt, Node.js, Python, APIs RESTful</p>
+                  <p className="text-gray-700">JavaSrcipt, Node.js, SQL, RESTful APIs</p>
                 </div>
 
               </div>
@@ -121,8 +117,14 @@ function App() {
                     />
                   
                     <h3 className="text-lg font-semibold mb-2">Code Studio</h3>
-                    <p className="text-gray-600 mb-4">Plataforma completa de Marketing Digital</p>
-                    <div className="flex gap-4">
+                    <p className="text-gray-600 mb-1">
+                    Website desenvolvido para apresentar serviços criativos de marketing, design e audiovisual. 
+                    Projeto responsivo com layout escuro e alternância de temas (dark/light).
+                    </p>
+                    <p className="text-gray-600 mb-3">
+                    🛠️ <span className="font-medium">HTML</span>, <span className="font-medium">Tailwind CSS</span>, <span className="font-medium">JavaScript</span>
+                    </p>
+                    <div className="flex gap-4 mb-2">
                       <a href="https://codestudio-one.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href="https://github.com/gAmoorim/CodeStudio" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
@@ -135,7 +137,13 @@ function App() {
                       className="w-full max-h-64 object-contain rounded mb-4"
                     />
                     <h3 className="text-lg font-semibold mb-2">Tech Store</h3>
-                    <p className="text-gray-600 mb-4">Plataforma completa de e-commerce de Tecnologia</p>
+                    <p className="text-gray-600 mb-1">
+                    Loja virtual fictícia com página inicial, catálogo de produtos e sistema de busca.
+                    Foco em responsividade, design moderno e experiência de navegação fluida.
+                    </p>
+                    <p className="text-gray-600 mb-3">
+                    🛠️ <span className="font-medium">TypeScript</span>, <span className="font-medium">JavaScript</span>, <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>
+                    </p>
                     <div className="flex gap-4">
                       <a href="https://tech-store-lime.vercel.app/" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href="https://github.com/gAmoorim/TechStore" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
