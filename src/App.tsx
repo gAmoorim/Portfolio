@@ -111,22 +111,22 @@ function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
-                      src="/codestudio.png" 
+                      src="/pagina-finance.png" 
                       alt="Projeto 1" 
                       className="w-full max-h-64 object-contain rounded mb-4"
                     />
                   
-                    <h3 className="text-lg font-semibold mb-2">Code Studio</h3>
+                    <h3 className="text-lg font-semibold mb-2">Finance Flow</h3>
                     <p className="text-gray-600 mb-1">
-                    Website desenvolvido para apresentar serviços criativos de marketing, design e audiovisual. 
-                    Projeto responsivo com layout escuro e alternância de temas (dark/light).
+                      O FinanceFlow permite que usuários registrem transações financeiras,
+                      definam metas de economia e visualizem um resumo completo das suas finanças de forma simples.
                     </p>
                     <p className="text-gray-600 mb-3">
-                    🛠️ <span className="font-medium">HTML</span>, <span className="font-medium">Tailwind CSS</span>, <span className="font-medium">JavaScript</span>
+                     🛠️ <span className="font-medium">TypeScript</span>, <span className="font-medium">JavaScript</span>, <span className="font-medium">CSS</span>
                     </p>
                     <div className="flex gap-4 mb-2">
-                      <a href="https://codestudio-one.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
-                      <a href="https://github.com/gAmoorim/CodeStudio" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
+                      <a href="https://financeflow-gamoorim.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://github.com/gAmoorim/FinanceFlow" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
                   
                   </div>
@@ -149,21 +149,25 @@ function App() {
                       <a href="https://github.com/gAmoorim/TechStore" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
 
-                    {/*
                     </div>
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
-                      src=""
+                      src="codestudio.png"
                       alt="Projeto 3" 
                       className="w-full max-h-64 object-contain rounded mb-4"
                     />
-                    <h3 className="text-lg font-semibold mb-2">...</h3>
-                    <p className="text-gray-600 mb-4">...2</p>
+                    <h3 className="text-lg font-semibold mb-2">Code Studio</h3>
+                    <p className="text-gray-600 mb-1">
+                     Website desenvolvido para apresentar serviços criativos de marketing, design e audiovisual. 
+                     Projeto responsivo com layout escuro e alternância de temas (dark/light).
+                    </p>
+                    <p className="text-gray-600 mb-3">
+                      🛠️ <span className="font-medium">HTML</span>, <span className="font-medium">Tailwind CSS</span>, <span className="font-medium">JavaScript</span>
+                    </p>
                     <div className="flex gap-4">
-                      <a href="#" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
-                      <a href="#" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
+                      <a href="https://codestudio-one.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href=" https://github.com/gAmoorim/CodeStudio" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
-                    */}
                     
                   </div>
                 </div>
