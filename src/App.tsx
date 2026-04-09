@@ -104,18 +104,19 @@ function App() {
                   </div>
                   <p className="text-gray-700">JavaSrcipt, Node.js, SQL, RESTful APIs</p>
                 </div>
-
               </div>
+
               <div className="bg-[#ECE9D8] p-6 rounded border border-gray-300 mb-12">
                 <h2 className="text-2xl font-bold mb-6 text-[#0A246A]">Projetos</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                  {/* PROJETO 1 */}
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
                       src="/pagina-finance.png" 
                       alt="Projeto 1" 
                       className="w-full max-h-64 object-contain rounded mb-4"
                     />
-                  
                     <h3 className="text-lg font-semibold mb-2">Finance Flow</h3>
                     <p className="text-gray-600 mb-1">
                       O FinanceFlow permite que usuários registrem transações financeiras,
@@ -128,8 +129,30 @@ function App() {
                       <a href="https://financeflow-gamoorim.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href="https://github.com/gAmoorim/FinanceFlow" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
-                  
                   </div>
+
+                  {/* PROJETO 2 */}
+                   <div className="bg-white p-4 rounded border border-gray-300">
+                    <img 
+                      src="/learnhub.png" 
+                      alt="Projeto 1" 
+                      className="w-full max-h-64 object-contain rounded mb-4"
+                    />
+                    <h3 className="text-lg font-semibold mb-2">LearnHUB</h3>
+                    <p className="text-gray-600 mb-1">
+                      Plataforma de ensino online onde instrutores podem criar e gerenciar cursos,
+                      e alunos podem se inscrever, acompanhar seu progresso e avaliar o conteúdo.
+                    </p>
+                    <p className="text-gray-600 mb-3">
+                     🛠️ <span className="font-medium">JavaScript</span>, <span className="font-medium">React</span>, <span className="font-medium">Vite</span>
+                    </p>
+                    <div className="flex gap-4 mb-2">
+                      <a href="https://yourlearnhub.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://github.com/gAmoorim/LearnHUB" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
+                    </div>
+                  </div>
+
+                  {/* PROJETO 3 */}
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
                       src="/techstore.png"
@@ -149,6 +172,7 @@ function App() {
                       <a href="https://github.com/gAmoorim/TechStore" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
 
+                    {/* PROJETO 4 */}
                     </div>
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
