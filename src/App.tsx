@@ -126,7 +126,7 @@ function App() {
                      🛠️ <span className="font-medium">TypeScript</span>, <span className="font-medium">JavaScript</span>, <span className="font-medium">CSS</span>
                     </p>
                     <div className="flex gap-4 mb-2">
-                      <a href="https://financeflow-gamoorim.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://financefloweb.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href="https://github.com/gAmoorim/FinanceFlow" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
                   </div>
