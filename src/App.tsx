@@ -31,7 +31,7 @@ function App() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-white text-center">
                   <img 
-                    src="/logoWxp-removebg.png" 
+                    src="/logoWxp.png"
                     alt="Windows XP Logo" 
                     className="w-48 h-48 object-contain mx-auto mb-8"
                   />
