@@ -50,10 +50,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#235ADC]">
-      {/* Windows XP style window */}
       <div className="container mx-auto px-4 py-8">
         <div className="bg-[#ECE9D8] rounded-lg shadow-xl overflow-hidden">
-          {/* Title bar */}
           <div className="bg-gradient-to-r from-[#0A246A] via-[#3A6EA5] to-[#0A246A] px-4 py-1 flex justify-between items-center">
             <div className="flex items-center gap-2">
               <MonitorSmartphone size={16} className="text-white" />
@@ -132,7 +130,7 @@ function App() {
                   </div>
 
                   {/* PROJETO 2 */}
-                   <div className="bg-white p-4 rounded border border-gray-300">
+                  <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
                       src="/learnhub.png" 
                       alt="Projeto 1" 
@@ -155,25 +153,46 @@ function App() {
                   {/* PROJETO 3 */}
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
+                      src="/doit.png"
+                      alt="Projeto 2" 
+                      className="w-full max-h-64 object-contain rounded mb-4"
+                    />
+                    <h3 className="text-lg font-semibold mb-2">DoIt</h3>
+                    <p className="text-gray-600 mb-1">
+                      DoIt é um aplicativo desktop completo para gerenciamento de tarefas , desenvolvido utilizando **Electron**.
+                      Permitindo rodar como um software nativo no computador.
+                    </p>
+                    <p className="text-gray-600 mb-3">
+                      🛠️ <span className="font-medium">JavaScript</span>, <span className="font-medium">React + Vite</span>, <span className="font-medium">Electron</span>, <span className="font-medium">CSS</span>
+                    </p>
+                    <div className="flex gap-4">
+                      <a href="" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
+                      <a href="https://github.com/gAmoorim/doIt" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
+                    </div>
+                  </div>
+
+                  {/* PROJETO 4 */}
+                  <div className="bg-white p-4 rounded border border-gray-300">
+                    <img 
                       src="/techstore.png"
                       alt="Projeto 2" 
                       className="w-full max-h-64 object-contain rounded mb-4"
                     />
                     <h3 className="text-lg font-semibold mb-2">Tech Store</h3>
                     <p className="text-gray-600 mb-1">
-                    Loja virtual fictícia com página inicial, catálogo de produtos e sistema de busca.
-                    Foco em responsividade, design moderno e experiência de navegação fluida.
+                      Loja virtual fictícia com página inicial, catálogo de produtos e sistema de busca.
+                      Foco em responsividade, design moderno e experiência de navegação fluida.
                     </p>
                     <p className="text-gray-600 mb-3">
-                    🛠️ <span className="font-medium">TypeScript</span>, <span className="font-medium">JavaScript</span>, <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>
+                      🛠️ <span className="font-medium">TypeScript</span>, <span className="font-medium">JavaScript</span>, <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>
                     </p>
                     <div className="flex gap-4">
                       <a href="https://tech-store-lime.vercel.app/" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href="https://github.com/gAmoorim/TechStore" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
+                  </div>
 
-                    {/* PROJETO 4 */}
-                    </div>
+                  {/* PROJETO 5 */}
                   <div className="bg-white p-4 rounded border border-gray-300">
                     <img 
                       src="codestudio.png"
@@ -192,8 +211,8 @@ function App() {
                       <a href="https://codestudio-one.vercel.app" target="_blank" className="text-[#0A246A] hover:underline">Link</a>
                       <a href=" https://github.com/gAmoorim/CodeStudio" target="_blank" className="text-[#0A246A] hover:underline">Código</a>
                     </div>
-                    
                   </div>
+
                 </div>
               </div>
             </div>
