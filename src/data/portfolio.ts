@@ -1,4 +1,4 @@
-import { Code2, Database, FolderOpen, Github, Linkedin, Mail, ServerCog, Terminal, UserRound } from 'lucide-react';
+import { Award, Code2, Database, FolderOpen, Github, Linkedin, Mail, ServerCog, Terminal, UserRound } from 'lucide-react';
 import type { Project, QuickLink, WindowDefinition } from '../types/portfolio';
 
 export const projects: Project[] = [
@@ -56,6 +56,7 @@ export const projects: Project[] = [
 export const windows: WindowDefinition[] = [
   { id: 'profile', title: 'Sobre.exe', icon: UserRound },
   { id: 'projects', title: 'Projetos', icon: FolderOpen },
+  { id: 'certificates', title: 'Certificados', icon: Award },
   { id: 'skills', title: 'Skills.dll', icon: ServerCog },
   { id: 'terminal', title: 'Terminal', icon: Terminal },
   { id: 'contact', title: 'Contato.txt', icon: Mail },

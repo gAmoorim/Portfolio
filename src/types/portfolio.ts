@@ -1,6 +1,6 @@
 import type { ElementType, ReactNode } from 'react';
 
-export type WindowId = 'profile' | 'projects' | 'skills' | 'terminal' | 'contact';
+export type WindowId = 'profile' | 'projects' | 'certificates' | 'skills' | 'terminal' | 'contact';
 
 export type Project = {
   title: string;

@@ -4,6 +4,7 @@ import { DesktopIcons } from './components/DesktopIcons';
 import { RetroWindow } from './components/RetroWindow';
 import { Taskbar } from './components/Taskbar';
 import { ContactWindow } from './components/windows/ContactWindow';
+import { CertificatesWindow } from './components/windows/CertificatesWindow';
 import { ProfileWindow } from './components/windows/ProfileWindow';
 import { ProjectsWindow } from './components/windows/ProjectsWindow';
 import { SkillsWindow } from './components/windows/SkillsWindow';
@@ -114,6 +115,7 @@ function App() {
                   onSelectProject={setSelectedProject}
                 />
               )}
+              {id === 'certificates' && <CertificatesWindow />}
               {id === 'terminal' && <TerminalWindow />}
               {id === 'contact' && <ContactWindow />}
             </RetroWindow>

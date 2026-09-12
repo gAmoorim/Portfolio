@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 :root {
   font-family: Tahoma, Verdana, Segoe UI, sans-serif;
@@ -385,6 +383,7 @@ button {
 
 .skills-window,
 .projects-window,
+.certificates-window,
 .terminal-window,
 .contact-window {
   width: 100%;
@@ -398,7 +397,8 @@ button {
 
 .skill-panel,
 .deliveries,
-.contact-panel {
+.contact-panel,
+.certificates-panel {
   padding: 1rem;
   background: white;
   border: 1px solid #c9c4ae;
@@ -552,6 +552,7 @@ button {
 
 .profile-window.maximized .profile-grid,
 .skills-window.maximized .skills-grid,
+.certificates-window.maximized .certificates-panel,
 .contact-window.maximized .contact-panel,
 .terminal-window.maximized .terminal-panel {
   min-height: 100%;
@@ -628,6 +629,177 @@ button {
   margin: 0 0 1rem;
   color: #4b5563;
   line-height: 1.6;
+}
+
+.certificates-panel {
+  min-height: 14rem;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+
+.certificates-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  color: #08246c;
+}
+
+.certificates-heading h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+}
+
+.certificates-heading p,
+.certificates-empty p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.55;
+}
+
+.certificates-empty {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  color: #08246c;
+  background: #d9ecff;
+  border: 1px solid #2f6edb;
+}
+
+.certificates-empty strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.certificado-card {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.85fr) minmax(10rem, 14rem);
+  overflow: hidden;
+  background: #f8f7ef;
+  border: 1px solid #c9c4ae;
+}
+
+.certificate-preview-area {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.55rem;
+  padding: 0.75rem;
+  background: #d9ecff;
+  border-right: 1px solid #c9c4ae;
+}
+
+.certificate-preview {
+  width: 100%;
+  height: clamp(12rem, 25vw, 18rem);
+  display: block;
+  object-fit: contain;
+  background: white;
+  border: 1px solid #b8b3a0;
+}
+
+.certificate-action {
+  min-height: 2.15rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  color: #081f5f;
+  font-weight: 700;
+  cursor: pointer;
+  background: #ece9d8;
+  border: 2px solid;
+  border-color: #ffffff #777260 #777260 #ffffff;
+}
+
+.certificate-action:hover,
+.certificate-action:focus-visible {
+  background: #f1f7ff;
+  outline: 2px solid #2f6edb;
+  outline-offset: 2px;
+}
+
+.certificate-info {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 1rem;
+  color: #08246c;
+}
+
+.certificate-info h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.certificate-info p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.certificate-modal {
+  position: fixed;
+  z-index: 20;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(3, 11, 32, 0.72);
+}
+
+.certificate-modal-content {
+  width: min(68rem, 100%);
+  max-height: calc(100vh - 2rem);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+  background: #ece9d8;
+  border: 2px solid;
+  border-color: #ffffff #777260 #777260 #ffffff;
+  box-shadow: 0.75rem 0.85rem 0 rgba(0, 0, 0, 0.28);
+}
+
+.certificate-modal-header {
+  min-height: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.3rem 0.4rem 0.3rem 0.65rem;
+  color: white;
+  background: linear-gradient(90deg, #08246c, #2f6edb 52%, #08246c);
+}
+
+.certificate-modal-header h2 {
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.certificate-modal-header button {
+  width: 1.5rem;
+  height: 1.4rem;
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ff8a66, #c13019);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+.certificate-modal-content > img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  display: block;
+  object-fit: contain;
+  padding: 1rem;
+  background: #d9ecff;
 }
 
 .taskbar {
@@ -734,6 +906,19 @@ button {
     border-bottom: 1px solid #c9c4ae;
   }
 
+  .certificado-card {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-preview-area {
+    border-right: 0;
+    border-bottom: 1px solid #c9c4ae;
+  }
+
+  .certificate-preview {
+    height: clamp(12rem, 45vw, 18rem);
+  }
+
   .projects-window.maximized .project-detail {
     height: auto;
   }
@@ -765,6 +950,7 @@ button {
   .skill-panel,
   .deliveries,
   .contact-panel,
+  .certificates-panel,
   .project-detail-body {
     padding: 0.8rem;
   }
