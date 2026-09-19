@@ -10,6 +10,13 @@ const certificates = [
     alt: 'Certificado do Bootcamp de Machine Learning',
   },
   {
+    title: 'Bootcamp IBM BOB: IA de nível Empresarial',
+    institution: 'IBM',
+    year: '2026',
+    image: '/certificado_ia_ibmbob.png',
+    alt: 'Certificado do bootcamp IBM BOB: IA de nível Empresarial',
+  },
+  {
     title: 'Curso Hashtag Fullstack',
     institution: 'Hashtag',
     year: '2025',
